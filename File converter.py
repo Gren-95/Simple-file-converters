@@ -143,15 +143,3 @@ elif answer == "7":
 		print("Please install GNU Parallel")
 else:
 	print("invalid option")
-
-    #elif answer == "3":
-       # from PIL import Image
-       # counter = 0
-      #  for image in glob.glob("./*.jpg"):
-      #      counter = counter + 1
-     #       img = Image.open(image)
-    #        img.save(str(counter)+'webp.webp','webp')
-    #    print("done")
-    
-   # print("\nPress 0 to exit \n\n    Picture converters \n------------------------------\nPress 1 to convert JPG to png\nPress 2 to convert PNG to JPG \nPress 3 to convert JPG to WEBP \nPress 4 to convert WEBP to JPG \nPress 5 to convert PNG to WEBP \nPress 6 to convert WEBP to PNG \n\n    Video converters \n------------------------------\nPress 7 to convert WEBM to MP4")
-   
