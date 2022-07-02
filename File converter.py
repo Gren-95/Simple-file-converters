@@ -134,8 +134,10 @@ elif answer == "6":
 
 # WEBM to MP4 option
 elif answer == "7":
+# Check if needed dependency exists
 	from os import path
 	if str(path.exists('/usr/bin/parallel')) == "True":
+Converting part
 		os.system('parallel ffmpeg -i {} {.}.mp4 ::: *.webm')
 		print("done")
 	else:
