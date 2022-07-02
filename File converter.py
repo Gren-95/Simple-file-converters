@@ -135,7 +135,6 @@ elif answer == "6":
 # WEBM to MP4 option
 elif answer == "7":
 	from os import path
-	#parallel = print("Parallel installed: " + str(path.exists('/usr/bin/parallel')))
 	if str(path.exists('/usr/bin/parallel')) == "True":
 		os.system('parallel ffmpeg -i {} {.}.mp4 ::: *.webm')
 		print("done")
