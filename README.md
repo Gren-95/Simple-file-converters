@@ -5,3 +5,6 @@ Convert common picture file formats in bulk simply and easily.
 
 Tested on:
 Fedora 36
+
+Python dependencies:
+Pillow
